@@ -1,0 +1,18 @@
+﻿<Window x:Class="_184648IPO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_184648IPO"
+        mc:Ignorable="d"
+        Title="Quick Maths" Height="350" Width="525" Background="#FFE8F11D" Foreground="#FF632D00">
+    <StackPanel>
+        <Label x:Name="lblInput1" Content="Bowls of Corn Soup per person" FontSize="24" />
+        <TextBox x:Name="txtBInput1" Background="#FFE8F11D" SelectionBrush="White" FontSize="24" />
+        <Label x:Name="lblInput2" Content="People coming to dinner" FontSize="24" />
+        <TextBox x:Name="txtBInput2" Background="#FFE8F11D" SelectionBrush="White" FontSize="24" />
+        <Button x:Name="btnMultiply" Content="Calculate" Click="btnMultiply_Click" FontSize="24" Background="#FFE8F11D" />
+        <Label x:Name="lblOutput" FontSize="24" />
+        <Label x:Name="lblPrice" FontSize="24" />
+    </StackPanel>
+</Window>
